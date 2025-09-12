@@ -2,9 +2,9 @@
 WeightStr=input("")
 if WeightStr[-2]in("pd"):
     C=(eval(WeightStr[0:-2])/2.2046)
-    print("转换后的重量是{:.3f}kg".format(C))
+    print("转换后的重量是{:.3f}公斤".format(C))
 elif WeightStr[-2]in("kg"):
     F=(eval(WeightStr[0:-2])*2.2046)
-    print("转换后的重量为{:.3f}pd".format(F))
+    print("转换后的重量为{:.3f}磅".format(F))
 else:
     print("输入格式错误")
