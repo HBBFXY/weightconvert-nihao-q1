@@ -1,5 +1,5 @@
 #WeightConvert.py
-WeightStr=input("")
+WeightStr=input()
 if WeightStr[-2]in("pd"):
     C=(eval(WeightStr[0:-2])/2.2046)
     print("转换后的重量是{:.3f}公斤".format(C))
